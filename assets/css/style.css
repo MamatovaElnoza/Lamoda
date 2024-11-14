@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 #header {
     width: 100%;
     height: 2000px;
@@ -42,4 +46,59 @@
 
 .header-top-right li:hover {
     background-color: #3a3a3c;
+}
+
+.header-middle {
+    width: 100%;
+    height: 100px;
+}
+
+.header-middle ul li {
+    display: inline-block;
+    padding: 2rem 1rem;
+}
+
+.header-middle-container > div{
+    justify-content: space-between;
+    display: inline-block;
+}
+
+.active a{
+    color: black !important;
+    border-bottom: 2px solid black !important;
+}
+
+.active a:hover {
+    color: grey !important;
+}
+
+.choice a{
+    color: grey;
+    transition: all 300ms ease;
+}
+
+.choice a:hover {
+    color: black;
+}
+
+.brand-img {
+    margin: 2rem 0 0 15rem;
+}
+
+.remove {
+    display: none;
+}
+
+.login {
+    float: right;
+    padding: 2rem 1rem;
+}
+
+.btn {
+    border: 1px solid black !important;
+}
+
+.btn:hover {
+    color: grey !important;
+    border: 1px solid grey !important;
 }
