@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+    width: 100%;
+    height: 2000px;
+}
+
+.header-top {
+    width: 100%;
+    height: 45px;
+    background-color: black;
+    color: white;
+    font-size: 0.8rem;
+}
+
+.header-top ul li {
+    display: inline-block;
+    padding: 0.8rem;
+}
+
+.header-top-left {
+    width: 50%;
+    float: left;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.header-top-left li:hover {
+    background-color: grey;
+}
+
+.header-top-right {
+    width: 50%;
+    float: right;
+    transition: all 300ms ease;
+    cursor: pointer;
+}
+
+.header-top-right li:hover {
+    background-color: #3a3a3c;
+}
